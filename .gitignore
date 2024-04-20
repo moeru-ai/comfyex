@@ -1,0 +1,10 @@
+# Docker Compose
+# docker-compose.yml
+
+# Custom Nodes
+custom_nodes/**
+!custom_nodes/.gitkeep
+
+# Models
+models/**
+!models/.gitkeep

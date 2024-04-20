@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  comfyui:
+    container_name: comfyex_comfyui
+    build: .
+    network_mode: host
+    devices:
+      - /dev/dri/card1:/dev/dri/card1
+      - /dev/dri/renderD128:/dev/dri/renderD128
+      # If you have iGPU, uncomment the following two lines:
+      # - /dev/dri/card2:/dev/dri/card2
+      # - /dev/dri/renderD129:/dev/dri/renderD129
+    volumes:
+      - ./custom_nodes:/app/custom_nodes
+      - ./models:/app/models
+    # command: --lowvram
