@@ -1,4 +1,4 @@
-# ComfyEX
+# ComfyEX [WIP]
 
 ![it works on my machine](https://img.shields.io/badge/it_works_on-my_machine-green)
 
