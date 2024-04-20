@@ -1,6 +1,9 @@
 # Docker Compose
 # docker-compose.yml
 
+# ComfyUI
+ComfyUI
+
 # Custom Nodes
 custom_nodes/**
 !custom_nodes/.gitkeep

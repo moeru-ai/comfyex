@@ -3,6 +3,7 @@ version: "3"
 services:
   comfyui:
     container_name: comfyex_comfyui
+    image: comfyex_comfyui
     build: .
     network_mode: host
     restart: unless-stopped
@@ -13,6 +14,7 @@ services:
       # - /dev/dri/card2:/dev/dri/card2
       # - /dev/dri/renderD129:/dev/dri/renderD129
     volumes:
+      - ./ComfyUI:/app
       - ./custom_nodes:/app/custom_nodes
       - ./models:/app/models
     # command: --lowvram
