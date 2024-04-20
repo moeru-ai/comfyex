@@ -5,6 +5,7 @@ services:
     container_name: comfyex_comfyui
     build: .
     network_mode: host
+    restart: unless-stopped
     devices:
       - /dev/dri/card1:/dev/dri/card1
       - /dev/dri/renderD128:/dev/dri/renderD128
