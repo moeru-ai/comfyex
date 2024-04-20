@@ -1,6 +1,8 @@
 # ComfyEX [WIP]
 
-![it works on my machine](https://img.shields.io/badge/it_works_on-my_machine-green)
+<!-- ![it works on my machine](https://img.shields.io/badge/it_works_on-my_machine-green) -->
+
+![it didn't work on my machine](https://img.shields.io/badge/it_didn't_work_on-my_machine-red)
 
 Easy-to-use [ComfyUI](https://github.com/comfyanonymous/ComfyUI) with
 [IPEX](https://github.com/intel/intel-extension-for-pytorch) Starter, based on
